@@ -1,0 +1,31 @@
+.customer h3{
+	text-shadow: 1px 1px 3px rgba(230, 14, 4 .10);
+}
+.parallax-container{
+	height: 20%;
+}
+.parallax img{
+	filter: brightness(1);
+	opacity: 0.5 !important;
+}
+.customer img{
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0.10));
+}
+section{
+	padding: 20px 0;
+}
+i img{
+	justify-content: center;
+}
+footer {
+	padding: 10px 0;
+	background-color: #ffab00;
+	text-align: right;
+}
+footer b{
+	color: #b71c1c;
+}
+.label{
+	background-color: #ffab00;
+	color: #fff;
+}

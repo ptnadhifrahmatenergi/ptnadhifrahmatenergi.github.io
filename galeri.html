@@ -1,0 +1,149 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>GALERI - PT NADHIF RAHMAT ENERGI</title>
+    </head>
+
+    <body>
+
+      <!--navbar-->
+
+      <div class="navbar-fixed">
+        <nav class="amber accent-4">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo"><img src="img/logo.png" width="30"  height="30">NRE</a>
+               <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                 <li><a href="index.html">BERANDA</a></li>
+                <li><a href="tentang.html">TENTANG KAMI</a></li>
+                 <li><a href="layanan.html">LAYANAN</a></li>
+                 <li><a href="galeri.html">GALERI</a></li>
+                  <li><a href="hubungi.html">HUBUNGI KAMI</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--sidenav-->
+      <ul class="sidenav" id="mobile-nav">
+                <li><a href="index.html">BERANDA</a></li>
+                 <li><a href="tentang.html">TENTANG KAMI</a></li>
+                 <li><a href="layanan.html">LAYANAN</a></li>
+                  <li><a href="galeri.html">GALERI</a></li>
+                  <li><a href="hubungi.html">HUBUNGI KAMI</a></li>
+      </ul>
+
+      <!--slider-->
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/slider/1.png"> 
+            <div class="caption center-align">
+              <h3>GALERI</h3>
+              <h5 class="light grey-text text-lighten-3">PT NADHIF RAHMAT ENERGI</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/slider/2.png"> 
+            <div class="caption center-align">
+              <h3>GALERI</h3>
+              <h5 class="light grey-text text-lighten-3">PT NADHIF RAHMAT ENERGI</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/slider/3.png"> 
+            <div class="caption center-align">
+              <h3>GALERI</h3>
+              <h5 class="light grey-text text-lighten-3">PT NADHIF RAHMAT ENERGI</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!--label-->
+      <section class="label">
+        <div class="container">
+          <p>BERANDA / GALERI</p>
+        </div>
+      </section>
+
+      <!--galeri-->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h3 class="light center grey-text text-darken-3">GALERI</h3>
+          <div class="row">
+          <div class="col m3 s12">
+            <img src="img/galeri/1.jpg" class="responsive-img materialboxed" > 
+          </div>
+          <div class="col m3 s12">
+            <img src="img/galeri/2.jpg" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m3 s12">
+            <img src="img/galeri/3.jpg" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m3 s12">
+            <img src="img/galeri/4.jpg" class="responsive-img materialboxed"> 
+          </div>
+        </div>
+         <div class="row">
+          <div class="col m3 s12">
+            <img src="img/galeri/5.jpg" class="responsive-img materialboxed" > 
+          </div>
+          <div class="col m3 s12">
+            <img src="img/galeri/6.jpg" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m3 s12">
+            <img src="img/galeri/7.jpg" class="responsive-img materialboxed"> 
+          </div>
+          <div class="col m3 s12">
+            <img src="img/galeri/8.jpg" class="responsive-img materialboxed"> 
+          </div>
+          
+        </div>
+        </div>
+        
+      </section>
+
+
+      <!--footer-->
+      <footer>
+    <div class="container">
+      <small>CreatedBy <b>PT. Nadhif Rahmat Energi</b>&copy;2022</small>
+    </div>
+  </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+       const sideNav = document.querySelectorAll('.sidenav');
+       M.Sidenav.init(sideNav);
+
+       const slider = document.querySelectorAll('.slider');
+       M.Slider.init(slider,{
+        indicators: false,
+        height:500,
+        transition:600,
+        interval: 4000
+       });
+
+        const parallax = document.querySelectorAll('.parallax');
+       M.Parallax.init(parallax);
+
+       const materialbox = document.querySelectorAll('.materialboxed');
+       M.Materialbox.init(materialbox);
+      </script>
+    </body>
+  </html>
+        
